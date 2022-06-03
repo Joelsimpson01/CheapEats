@@ -1,0 +1,378 @@
+
+
+
+.TitleTutorial p {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*!*poopy*! ctrl slash*/
+/* ctrl alt l cleansup*/
+/* ctrl alt i for indents*/
+
+#container {
+    display: flex;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+#container div {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#CheckedListBox1 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 470px;
+    width: 615px;
+    overflow-y: scroll;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+#cb1 {
+
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#veg1 {
+    background-color: #ebf8e6;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#veg1:hover {
+    filter: brightness(80%);
+}
+
+#meat1{
+    background-color: #ffcccb;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#meat1:hover{
+    filter: brightness(80%);
+}
+
+#egg1{
+    background-color: #ffffd4;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#egg1:hover{
+    filter: brightness(80%);
+}
+
+#oil1{
+    background-color: #FFD580;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#oil1:hover{
+    filter: brightness(80%);
+}
+
+#sus1{
+    background-color: #ADD8E6;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#sus1:hover{
+    filter: brightness(80%);
+}
+
+#wheat1{
+    background-color: #CBC3E3;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 25px;
+    width: 564px;
+    padding: 13px;
+}
+
+#wheat1:hover{
+    filter: brightness(80%);
+}
+
+#loading {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+}
+
+#loading_image img {
+    width: 500px;
+    height: 500px;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*#label {
+    margin: auto;
+    padding: 10px;
+}*/
+
+
+#CheckedListBox2 {
+
+    border-width: 1px;
+    border-style: solid;
+    height: 440px;
+    width: 990px;
+    overflow-y: scroll;
+    padding: 2px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+#rec1 {
+    float: left;
+    margin-left: 0;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec2 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec3 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec4 {
+    float: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+}
+
+#rec5 {
+    loat: left;
+    margin: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    height: 220px;
+    width: 320px;
+    padding: 0px;
+
+}
+
+#FoodImage:hover {
+    filter: brightness(80%);
+}
+
+#FoodImage {
+    height: 220px;
+    left: 0px;
+    right: 0px;
+}
+
+#cb2 {
+    float: right;
+}
+
+.buttonItems {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 32%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonRecipies {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 42%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonList {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 52%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonFavourites {
+
+    position: fixed;
+    bottom: 40px;
+    display: block;
+    margin-left: 62%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonTutorial {
+    float: right;
+    display: block;
+    width: 80px;
+
+}
+
+#img_logo {
+}
+
+
+#Tutorial_numbers {
+    margin: auto;
+    width: 70%;
+    left: 0px;
+    right: 0px;
+}
+
+#Tutorial_numbers img {
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+
+.Itemgroup{
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-template-rows: 10vw;
+    margin-left: 475px;
+    margin-right: 475px;
+    margin-top: 75px;
+  gap: 100px;
+  align-items: center;
+  justify-items: center;
+}
+
+.meat{
+    width: 250px;
+    height: 250px;
+}
+
+.dairy{
+    width: 250px;
+    height: 250px;
+}
+
+.oil{
+    width: 250px;
+    height: 250px;
+}
+
+.sauce{
+    width: 250px;
+    height: 250px;
+}
+
+.wheat{
+    width: 250px;
+    height: 250px;
+}
+
+.fruit{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
